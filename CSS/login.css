@@ -1,0 +1,71 @@
+body {
+  background-image: url("../Image/cofe35.jpg");
+ 
+}
+
+
+.login-form {
+  max-width: 400px;
+  margin: 10rem auto; /* Center the form with some top margin */
+  background-color: black;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  animation: fadeInUp 0.8s ease-out forwards; /* Fade-in animation */
+  opacity: 0; /* Start invisible for animation */
+  transform: translateY(20px); /* Start slightly below for animation */
+}
+
+.login-form h2{
+  color: #f7aa05;
+}
+.login-form label {
+  display: block;
+  margin: 0.5rem 0 0.2rem;
+  color: #f7aa05;
+}
+
+.login-form input,
+.login-form select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for focus */
+}
+
+.login-form input:focus,
+.login-form select:focus {
+  border-color: #ff6347; /* Highlight border color */
+  box-shadow: 0 0 5px rgba(255, 99, 71, 0.5); /* Subtle shadow effect */
+}
+
+.login-form button {
+  display: block;
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #f7aa05;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover */
+}
+
+.login-form button:hover {
+ color:black ;
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+/* Animation for form */
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}

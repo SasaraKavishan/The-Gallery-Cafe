@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  background-color: black;
+} */
+
+.navBar {
+  object-fit: cover;
+  padding: 23px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  margin-left: -8px;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  border-right: 2px solid #f7aa05;
+  padding: 0 10px;
+}
+
+.nav li:last-child {
+  border: none;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  color: #f7aa05;
+}
+
+.LOGOUT-img {
+  background-color: #f7aa05;
+  color: white;
+  width: 10vh;
+  height: 5vh;
+  position: absolute;
+  bottom: 20;
+  right: 50px;
+}
+.LOGOUT-img:hover {
+  color: black;
+  transform: scale(1.05);
+}
+
+.header {
+  background-color: black;
+  color: #f7aa05;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 10vh;
+  font-size: 3vh;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: black;
+  color: #fff;
+  position: fixed;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  color: #fff;
+  padding: 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.sidebar a:hover {
+  background-color: #575757;
+  color: #f7aa05;
+}
+
+.content {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 5vh;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.Edit-delete {
+  text-decoration: none;
+  color: #f7aa05;
+  margin-left: 5vh;
+}
+
+.Add-item {
+  text-decoration: none;
+  color: black;
+  border-radius: 3px;
+  background-color: #f7aa05;
+  padding: 1vh;
+}
+
+.addcss{
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 50px #f7aa05;
+  text-align: center;
+  
+}
+
+.addlabel {
+  border-radius: 5px;
+  background-color: black ;
+  padding: -3px;
+  
+  color: #f7aa05;
+ 
+}
+
+
+
+

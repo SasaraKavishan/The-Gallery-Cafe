@@ -1,0 +1,213 @@
+body{
+  position: relative;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-content{
+  float: left;
+  margin: 80px 100px ;
+}
+
+.topic {
+  font-size: 70px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 0;
+  color: white;
+  /*background-color: black;*/
+  animation-name: ex;
+  margin-top: 200px;
+  
+}
+.navBar {
+  object-fit: cover;
+  padding: 23px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%; 
+  z-index: 1000;
+  margin-left: -8px;
+  
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  border-right: 2px solid #f7aa05;
+  padding: 0 10px;
+}
+
+.nav li:last-child {
+  border: none;
+}
+
+.inster{
+  width: 20px;
+  height: 20px;
+}
+
+
+header{
+  background-image: url("../Image/cofe34.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  
+  
+}
+
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  color: #f7aa05;
+}
+
+
+
+.slogan{
+  color: white;
+  margin-top: -40px;
+  margin-left: 19px;
+  font-size: 25px;
+}
+
+.logo-maincafe {
+  width: 150px;
+  height: 150px;
+  margin-top: 25px;
+  margin-left: 116px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #f7aa05;
+  animation: fadeInUp 1s ease-out forwards; 
+  opacity: 0; 
+  transform: translateY(20px); 
+}
+
+
+
+footer{
+  background-color:black;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo {
+  width: 72px;
+  height: 72px;
+  margin-top: 25px;
+  margin-left: 25px;
+  border-radius: 50%;
+}
+
+
+.find{
+  color: #f7aa05;
+  margin-left: 500px;
+  margin-top: 10px;
+  display: inline;
+}
+
+ .social-media{
+  margin-top: 27px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.contact-info{
+  margin-top: 35px;
+  color: #f7aa05;
+  margin-left: 150px;
+  display: inline;
+}
+
+.p{
+  padding-top: 0px;
+  margin-top: -7px;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.p1 {
+  color: #f7aa05;
+  text-decoration: none;
+}
+
+.int{
+  width: 6vh;
+  height: 5vh;
+  background-color: black;
+}
+#new{
+  display: flex;
+  margin-top: -20px;
+}
+.LOG-img{
+  background-color: #f7aa05;
+  color: white;
+  width: 10vh;
+  height: 5vh;
+  position: absolute;
+  bottom: 20;
+  right: 50px;
+}
+.LOG-img:hover{
+  color: black;
+  transform: scale(1.05)
+}
+
+.LOGOUT-img{
+  background-color: #f7aa05;
+  color: white;
+  width: 10vh;
+  height: 5vh;
+  position: absolute;
+  bottom: 20;
+  right: 50px;
+}
+.LOGOUT-img:hover{
+  color: black;
+  transform: scale(1.05)
+}
+
+.cart-img{
+  
+  
+      width: 5vh;
+    height: 5vh;
+    position: absolute;
+    bottom: 20px;
+    right: 137px;
+
+}
+
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+

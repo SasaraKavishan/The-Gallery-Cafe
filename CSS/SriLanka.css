@@ -1,0 +1,82 @@
+body{
+  background-color: black;
+}
+
+.navBar {
+  object-fit: cover;
+  padding: 23px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%; 
+  z-index: 1000;
+  margin-left: -8px;
+}
+
+.nav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  border-right: 2px solid #f7aa05;
+  padding: 0 10px;
+}
+
+.nav li:last-child {
+  border: none;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  color: #f7aa05;
+}
+
+.sl{
+  color:#f7aa05;
+  margin-top: 90px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.BRB{
+  color:#f7aa05;
+  font-size: 30px;
+  margin-left: 80px;
+  margin-bottom: -32px;
+}
+
+.BR1{
+  
+  display: inline-block;
+  margin: 80px;
+  border-radius: 10%;
+  
+  
+}
+
+.SlImage{
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  border: 3px solid #f7aa05;
+}
+
+.Bfoods{
+  padding: 20px;
+  text-align: center;
+  color: #f7aa05;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
